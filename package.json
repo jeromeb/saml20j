@@ -1,33 +1,34 @@
 {
-  "name": "saml20",
-  "version": "0.1.14",
-  "description": "SAML 2.0 and 1.1 token parser for Node.js",
-  "main": "./lib/index.js",
-  "dependencies": {
-    "lodash": "3.10.1",
-    "thumbprint": "0.0.1",
-    "xml-crypto": "0.8.1",
-    "xml2js": "0.4.4",
-    "xmldom": "0.1.19"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/leandrob/saml20.git"
-  },
-  "keywords": [
-    "SAML 2.0",
-    "SAML 1.1",
-    "Token Parser"
-  ],
-  "scripts": {
-    "test": "npm run jshint && mocha -R spec test",
-    "jshint": "jshint lib/*.js"
-  },
-  "author": "Leandro Boffi (me@leandrob.com)",
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "devDependencies": {
-    "jshint": "2.8.0",
-    "mocha": "2.3.3"
-  }
+    "name": "saml20j",
+    "version": "0.1.15",
+    "description": "SAML 2.0 and 1.1 token parser and validator for Node.js",
+    "main": "./lib/index.js",
+    "dependencies": {
+        "lodash": "3.10.1",
+        "thumbprint": "0.0.1",
+        "xml-crypto": "0.8.1",
+        "xml2js": "0.4.4",
+        "xmldom": "0.1.19"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeromeb/saml20j.git"
+    },
+    "keywords": [
+        "SAML 2.0",
+        "SAML 1.1",
+        "Token Parser",
+        "Token Validator"
+    ],
+    "scripts": {
+        "test": "npm run jshint && mocha -R spec test",
+        "jshint": "jshint lib/*.js"
+    },
+    "author": "Leandro Boffi (me@leandrob.com)",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "devDependencies": {
+        "jshint": "2.8.0",
+        "mocha": "2.3.3"
+    }
 }
